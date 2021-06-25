@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MY Page</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    input[type=password],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    .heding{
+        text-align: center;
+    }
+</style>
+</style>
+
+<body>
+
+
+    <div class="container">
+        <form action='/log' method="POST">
+            <h1 class="heding">Login Page</h1>
+
+            <label for="fname">Username</label>
+            <input type="text" id="fname" name="logname" placeholder="Username@gmail.com.."> 
+
+            <label for="lname">Password</label><br>
+            <input type="password" id="lname" name="pass" placeholder="Your password.."><br>
+
+            
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
