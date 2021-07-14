@@ -8,5 +8,3 @@ basically in this project i  have used followiing packages:
  *  nodemon
  *  mongoose
  *  bcrypt `
-
- 
