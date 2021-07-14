@@ -1,10 +1,12 @@
 # login-page
 
- have created Login- Signup page.
- basically i have used 
- ` express
- jsobwebtoken
- nodemon
- mongoose
- bcrypt `
+i have created Login- Signup page.
+
+basically in this project i  have used followiing packages: 
+ * express
+ *  jsobwebtoken
+ *  nodemon
+ *  mongoose
+ *  bcrypt `
+
  
